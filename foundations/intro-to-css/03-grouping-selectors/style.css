@@ -1,0 +1,23 @@
+body {
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+    /* additional styles to center page content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn{
+    font-size: 28px;
+}
+
+.btn-01 {
+    background-color: black;
+    color: white;
+}
+
+.btn-02 {
+    background-color: yellow;
+    margin-left: 5px;
+}
