@@ -80,8 +80,12 @@ button.cancel {
   padding: 16px;
 }
 
+.header {
+  font-size: 18px;
+}
+
 .icon {
-  width: 180px;
+  flex-shrink: 0;
 }
 
 .text {
