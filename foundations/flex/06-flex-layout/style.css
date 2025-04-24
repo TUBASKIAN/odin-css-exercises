@@ -24,3 +24,66 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* SOLUTION */
+
+/* general styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* default flex layout */
+
+.flex-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  flex-direction: column;
+}
+
+/* common styles for header and footer*/
+
+.header,
+.footer {
+  background-color: #eee;
+  padding: 1em;
+}
+
+.header a,
+.footer a {
+  color: #666;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 10px;
+}
+
+/* content styles */
+
+.content {
+  align-self: center;
+}
+
+.content .input,
+.content .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.content .input {
+  margin: 1em 0;
+}
+
+.content .buttons button{
+  padding: 10px 14px;
+}
